@@ -1,0 +1,16 @@
+#main 
+{
+    display: flex;
+    background-color:rgb(252, 246, 246);
+}
+
+#form {
+    width: 50%;
+    background-color: rgb(159, 171, 181);
+}
+
+#output {
+    width:50%;
+    background-color: rgb(53, 0, 73);
+    position: absolute;
+}
