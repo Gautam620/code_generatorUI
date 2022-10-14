@@ -29,8 +29,8 @@
                     <option value="int">int</option>
                     <option value="double">double</option>
                     <option value="boolean">boolean</option>
-                  </select><br>
-                  <br>
+                </select><br>
+                <br>
 
                 <label for="params">params:</label>
                 <select id="params">
@@ -38,31 +38,52 @@
                     <option value="int">int</option>
                     <option value="double">double</option>
                     <option value="boolean">boolean</option>
-                  </select>
+                </select>
                 <label for="pvalue">value:</label>
                 <input type="text" id="pvalue" name="valuetype">
-                
-                </form>
-                <div>   
-                    
-                </div>
-             <div id="myparam"></div>
-          
-            <button onclick=addParam()>Add params</button>
-        </div>  
+                <label for="paramstype"> </label>
+                <label for=" paramsname"> </label>
+
+            </form>
+
+            <div id="myparam">
+            
+            </div>
+
+            <button onclick="addParam()">Add params</button>
+        </div>
 
 
         <div id="result_code">
             This is my value
         </div>
 
-
+         ̰
     </div>
-    <button onclick = getcode()>submit</button>
-   
 
-    
+    <button onclick=getcode()>submit</button>
+    <div id="dummytable">
+        <table id="table1" style="width: 100px; border: 1px solid black;"> 
+            <tbody>
+                <tr>
+                    <td><button id="button1" style="border: 1px solid black;" onclick = 'deleteRow("button1")'>delete 1</button></td>
+                    <td style="border: 1px  solid black;">p1, p2, p3</td>
+                </tr>
+                <tr>
+                    <td><button id="button2" style="border: 1px solid black;" onclick = 'deleteRow("button2")'>delete 2</button></td>
+                    <td style="border: 1px solid black;">p1, p2, p3</td>
+                </tr>
+                <tr>
+                    <td><button id="button3" style="border: 1px solid black;" onclick = 'deleteRow("button3")'>delete 3</button></td>
+                    <td style="border: 1px solid black;">p1, p2, p3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  
+
+
 </body>
- 
+
 
 </html>

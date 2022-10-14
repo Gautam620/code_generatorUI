@@ -14,3 +14,18 @@
     background-color: rgb(53, 0, 73);
     position: absolute;
 }
+
+.param {
+    display: flex;
+}
+
+.delete_param {
+    height: 20px;
+    background-color: red;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.param_name, .param_type {
+    padding: 10px;
+}
